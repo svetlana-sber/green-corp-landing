@@ -86,7 +86,8 @@ header {
 
   .form {
     display: flex;
-
+    justify-content: center; 
+    align-items: center;
     background-color: #1D263A;
     color: #fff;
     padding-top: 115px;
@@ -95,11 +96,11 @@ header {
   }
 
   .form h1 {
-    size: 48px;
+    font-size: 48px;
   }
 
   .form p {
-    size: 18px;
+    font-size: 18px;
     opacity: 0.65;
   }
 
